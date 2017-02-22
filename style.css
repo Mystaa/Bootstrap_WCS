@@ -1,0 +1,22 @@
+body {
+  padding-top: 10px;
+}
+[class*="col-"], footer {
+  background-color: green;
+  height: 20px;
+}
+@media (min-width: 767px) {
+[class*="col-"] {
+  height: 40px;
+  }
+}
+@media (min-width: 992px) {
+[class*="col-"] {
+  height: 60px;
+  }
+}
+@media (min-width: 1200px) {
+[class*="col-"] {
+  height: 90px;
+  }
+}
